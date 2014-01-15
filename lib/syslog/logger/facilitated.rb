@@ -13,6 +13,6 @@ class Syslog::Logger
           Syslog.open(program_name, Syslog::LOG_ODELAY | Syslog::LOG_CONS, facility)
     end
 
-    alias_method << info
+    alias_method :<<, :info
   end
 end
