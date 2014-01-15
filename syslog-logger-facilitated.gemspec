@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "syslog-logger-facilitated"
   spec.version       = Syslog::Logger::Facilitated::VERSION
   spec.authors       = ["Conjur Inc."]
-  spec.email         = ["divided.mind@gmail.com"]
+  spec.email         = ["rafal@conjur.net"]
   spec.summary       = %q{Syslog::Logger patched to support #<< and setting facility}
   spec.homepage      = "https://github.com/dividedmind/syslog-logger-facilitated"
   spec.license       = "MIT"
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = '>= 2.0'
+  spec.required_ruby_version = '~> 2.0'
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
 end
